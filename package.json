@@ -1,0 +1,42 @@
+{
+  "name": "file-repo",
+  "version": "0.0.1",
+  "description": "File repo with basic templating and substituion",
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "compile": "tsc --project tsconfig.json --declaration",
+    "test": "ts-mocha --reporter tap --require should test/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sehrope/node-file-repo.git"
+  },
+  "keywords": [
+    "file",
+    "repo",
+    "template"
+  ],
+  "author": {
+    "name": "Sehrope Sarkuni",
+    "email": "sehrope@jackdb.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sehrope/node-file-repo/issues"
+  },
+  "homepage": "https://github.com/sehrope/node-file-repo#readme",
+  "devDependencies": {
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^8",
+    "@types/should": "^11.2.0",
+    "mocha": "*",
+    "should": "*",
+    "ts-mocha": "^1.0.3",
+    "tslint": "^5.7.0",
+    "typescript": "^2.4.2"
+  }
+}

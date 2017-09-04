@@ -1,0 +1,6 @@
+.npmignore
+.travis.yml
+Makefile
+src
+test
+tsconfig.json
